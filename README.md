@@ -41,20 +41,20 @@ The database file is intentionally not tracked in Git and persists across app up
 
 ## Project Structure
 
-inventory_app/
-├── main.py
-├── services.py
-├── db.py
-├── migrations.py
-├── ui/
-│ ├── ui.py
-│ └── screens/
-│ ├── stock.py
-│ ├── add_product.py
-│ ├── edit.py
-│ └── movement.py
-├── README.md
-└── .gitignore
+inventory_app/<br>
+├── main.py<br>
+├── services.py<br>
+├── db.py<br>
+├── migrations.py<br>
+├── ui/<br>
+│ ├── ui.py<br>
+│ └── screens/<br>
+│ ├── stock.py<br>
+│ ├── add_product.py<br>
+│ ├── edit.py<br>
+│ └── movement.py<br>
+├── README.md<br>
+└── .gitignore<br>
 
 
 ---
@@ -77,18 +77,18 @@ pyinstaller \
   main.py
 ```
 
-The built application will be available at:
+The built application will be available at:<br>
 
-dist/Inventory.app
+dist/Inventory.app<br>
 
 **##macOS Security Notice**
 
-Because the app is unsigned, macOS may block it on first launch.
+Because the app is unsigned, macOS may block it on first launch.<br>
 
-To open the app:
-Right-click Inventory.app
-Click Open
-Click Open again
-This is required only once.
+To open the app:<br>
+Right-click Inventory.app<br>
+Click Open<br>
+Click Open again<br>
+This is required only once.<br>
 
 
